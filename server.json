@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.lzyvslf/supubao-mcp",
+  "title": "Supubao Tool",
+  "description": "36 no-install tools: weather, IP lookup, live trending, hash, JWT, cron, CIDR. Remote MCP, no key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://tool.supubao.com/mcp",
+  "repository": {
+    "url": "https://github.com/lzyvslf/supubao-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.supubao.com/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://mcp.supubao.com/mcp/sse"
+    }
+  ]
+}
