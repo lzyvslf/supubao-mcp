@@ -162,3 +162,9 @@ curl -s -X POST https://api.supubao.com/api/v1/tool/zhconvert \
 
 仓库里的文档与配置示例是 MIT（见 LICENSE）。这把许可证**不覆盖**服务器实现，
 服务本身按免费使用提供，有自己的使用条款。第三方客户端各自的许可自行确认。
+
+## 延伸阅读与支持
+
+- 这些差异判断中有一条被写成了完整的技术稿：《为什么「脱敏测试数据」必须可复现：从一张规则表说起》— https://juejin.cn/post/7710543515243806771
+- 工具始终免费，付费的只有需要写清规则、可复现的按单交付：https://tool.supubao.com/docs/desensitize
+- 如果这套东西对你有用，可以在爱发电小额赞助服务器与更新成本，不解锁任何功能：https://ifdian.net/a/yongge-ai
