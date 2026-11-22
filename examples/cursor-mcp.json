@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "supubao-tool": {
+      "url": "https://mcp.supubao.com/mcp",
+      "transport": "streamable-http"
+    }
+  }
+}
